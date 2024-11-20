@@ -31,8 +31,8 @@ import {
             </Card>
           </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="bg-transparent border-0" />
+        <CarouselNext className="bg-transparent border-0"/>
       </Carousel>
     );
   }

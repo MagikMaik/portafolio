@@ -10,16 +10,20 @@ function App() {
   return (
     <>
       <Header />
-      <Section className="bg-red-400 flex flex-row justify-center h-[900px] items-center ">
-        <div className="h-full bg-zinc-400 w-[40%] justify-center items-center flex flex-col space-y-10">
+      <Section className=" bg-zinc-400 flex flex-row justify-center h-[900px] items-center ">
+        <div className=" bg-red-700 h-full w-[40%] justify-center items-center flex flex-col space-y-10">
           <p className="font-bold text-white text-6xl w-[500px]">
             "Bringing <span className="text-red-300">Design</span> to{" "}
             <span className="text-red-300">Life</span>"
           </p>
-          <Button>Resume</Button>
+          
+            <Button className="rounded-full px-6 py-2 text-white self-start ml-[100px]">
+              Resume
+            </Button>
+          
         </div>
-        <div className="h-full bg-slate-400 w-[40%] flex justify-center items-center">
-          <CarouselT className='w-full h-full' />
+        <div className=" w-[40%] flex justify-center items-center">
+          <CarouselT className="w-full h-full" />
         </div>
       </Section>
       <Section className="bg-blue-400 h-[900px]">
