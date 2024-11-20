@@ -18,8 +18,8 @@ function App() {
           </p>
           <Button>Resume</Button>
         </div>
-        <div className="h-full bg-slate-400 w-[40%] justify-center items-center">
-          <CarouselT />
+        <div className="h-full bg-slate-400 w-[40%] flex justify-center items-center">
+          <CarouselT className='w-full h-full' />
         </div>
       </Section>
       <Section className="bg-blue-400 h-[900px]">
